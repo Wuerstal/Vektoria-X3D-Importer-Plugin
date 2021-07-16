@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.3//EN" "https://www.web3d.org/specifications/x3d-3.3.dtd">
+<X3D profile='Immersive' version='3.3' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='https://www.web3d.org/specifications/x3d-3.3.xsd'>
+  <Scene>
+		<Transform translation='0 12 0'>
+			<Transform translation="-1 0 0">
+				<Transform rotation="0 0 1 0.41">
+					<Shape>
+						<Appearance>
+							<ImageTexture url='"https://www.web3d.org/x3d/content/examples/Basic/earth-topo.png"'/>
+						</Appearance>
+						<Sphere>
+						</Sphere>
+					</Shape>
+				</Transform>
+				<Transform translation="2 0 2">
+					<Shape bboxCenter='0 0 0' bboxSize='-1 -1 -1'>
+						<Text string='"Hello World!" "World replied with:" "Hello!" "WASD + R,F + Arrowkeys = move" "Pic_up/down = switch camera"'>
+							<FontStyle family='monospace' size='1' quality='0' spacing='1' justify='"begin" "middle"'/>
+						</Text>
+					</Shape>
+				</Transform>
+				<Transform DEF="Camera_TRANSFORM"
+				   translation="8 -1 21"
+				   scale="1.000000 1.000000 1.000000"
+				   rotation="0 0 0 0"
+				   >
+					<Viewpoint DEF="CA_Camera"
+						centerOfRotation="0 0 0"
+						position="-0.00 0.00 -0.00"
+						orientation="0.10 0.24 -0.97 0.00"
+						fieldOfView="0.858"
+						/>
+				</Transform>
+			</Transform>
+		</Transform>
+	</Scene> 
+</X3D>

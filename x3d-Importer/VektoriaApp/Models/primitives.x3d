@@ -1,0 +1,348 @@
+<X3D width='500px' height='400px'>
+    <Scene>
+		<Transform translation="-10 0 0">
+		<Transform translation="0 -10 0">
+					<Shape>
+						<appearance>
+							<ImageTexture   def="topoEarth"
+											url='"textures/VektoriaLogo_400x400.bmp" " ../textures/VektoriaLogo_400x400.bmp"'
+											/>
+						</appearance>
+						<Sphere radius='2'>
+						</Sphere>
+					</Shape>
+					<Shape>
+						<Circle2D radius=     "    2.5   ">
+						</Circle2D>
+					</Shape>
+				<Transform rotation="1,0,0,0.785398">
+						<Shape>
+							<Circle2D radius    ="2.5">
+							</Circle2D>
+						</Shape>
+				</Transform>
+				<Transform rotation="1 0 0 1.5708">
+						<Shape>
+							<Circle2D radius="2.5">
+							</Circle2D>
+						</Shape>
+				</Transform>
+				<Transform rotation="1 0 0 2.35619">
+						<Shape>
+							<Circle2D radius="2.5">
+							</Circle2D>
+						</Shape>
+				</Transform>
+				<Transform rotation="1 0 0 3.92699">
+						<Shape>
+							<Circle2D radius="2.5">
+							</Circle2D>
+						</Shape>
+				</Transform>
+				<Transform translation="-6 0 0" rotation="0 0 1 0.4" scale="2 2 2"> 
+						<shape>
+							<appearance>
+								<ImageTexture use="topoEarth"/>
+							</appearance>
+							<Box size='2, 2.7, 1.2'>
+							</Box>
+						</shape>
+				</Transform>
+				</Transform>
+			<Transform translation="0 5 0">
+					<Shape>
+						<appearance>
+							<Material	DEF="Donut"
+										diffuseColor="1.0 0.040 0.740"
+										specularColor="0.401 0.401 0.401"
+										emissiveColor="0.000 0.000 0.000"
+										ambientIntensity="0.333"
+										shininess="0.096"
+										transparency="0"
+										/>
+						</appearance>
+						<Torus innerRadius="0.4" outerRadius="1.6" angle="twopi">
+						</Torus>
+					</Shape>
+				<Transform rotation="1 1 0 0.96" translation="0 5 0">
+					<Shape>
+						<appearance>
+							<Material	  Use="Donut"
+										/>
+						</appearance>
+						<Torus innerRadius="0.4" outerRadius="1.6" angle="twopi">
+						</Torus>
+					</Shape>
+				</Transform>
+				<Transform translation="0 10 0" scale="0.5 1 1.7">
+					<Shape>
+						<appearance>
+							<Material	  Use="Donut"
+										/>
+						</appearance>
+						<Torus innerRadius="0.7" outerRadius="1" angle="twopi">
+						</Torus>
+					</Shape>
+				</Transform>
+				<Transform translation="0 16 0" scale="0.5 1.25 1">
+					<Shape>
+						<appearance>
+							<Material	  Use="Donut"
+										/>
+						</appearance>
+						<Torus innerRadius="0.7" outerRadius="2" angle="pi">
+						</Torus>
+					</Shape>
+				</Transform>
+				<Transform translation="-7 0 0">
+					<Shape>
+						<appearance>
+							<Material	DEF="Cone"
+										diffuseColor="1.0 0.540 0.0"
+										specularColor="0.101 0.801 0.001"
+										emissiveColor="0.000 0.000 0.000"
+										ambientIntensity="0.333"
+										shininess="0.06"
+										transparency="0"
+										/>
+						</appearance>
+						<Cone bottomRadius="2" height="2">
+						</Cone>
+					</Shape>
+					<Transform translation="0 3 0" rotation="1 0 0 0.79">
+						<Shape>
+							<appearance>
+								<Material use="Cone"/>
+							</appearance>
+							<Cone>
+							</Cone>
+						</Shape>
+					</Transform>
+					<Transform translation="0 8 0" scale="1.5 1.8 0.8" rotation="1 0 1 0.79">
+						<Shape>
+							<appearance>
+								<Material use="Cone"/>
+							</appearance>
+							<Cone topRadius="0.7">
+							</Cone>
+						</Shape>
+					</Transform>
+					<Transform translation="0 15 0" scale="-1.5 1 0.8">
+						<Shape>
+							<appearance>
+								<Material use="Cone"/>
+							</appearance>
+							<Cone topRadius="-0.7">
+							</Cone>
+						</Shape>
+					</Transform>
+				</Transform>
+				<Transform translation="-14 0 0">
+				<Shape>
+						<appearance>
+							<Material	DEF="Cylinder"
+										diffuseColor="0.30 0.840 0.7"
+										specularColor="0.101 0.801 0.001"
+										emissiveColor="0.000 0.000 0.000"
+										ambientIntensity="0.333"
+										shininess="0.06"
+										transparency="0"
+										/>
+						</appearance>
+						<Cylinder>
+						</Cylinder>
+					</Shape>
+					<Transform translation="0 3 0" rotation="1 1 1 0.79">
+						<Shape>
+							<appearance>
+								<Material use="Cylinder"/>
+							</appearance>
+							<Cylinder radius="1" height="1">
+							</Cylinder>
+						</Shape>
+					</Transform>
+					<Transform translation="0 8 0" scale="1.5 1.8 0.8">
+						<Shape>
+							<appearance>
+								<Material use="Cylinder"/>
+							</appearance>
+							<Cylinder radius="0.7">
+							</Cylinder>
+						</Shape>
+					</Transform>
+					<Transform translation="0 15 0" scale="0.2 1 3">
+						<Shape>
+							<appearance>
+								<Material use="Cylinder"/>
+							</appearance>
+							<Cylinder radius="-0.7">
+							</Cylinder>
+						</Shape>
+					</Transform>
+				</Transform>
+				<Transform translation="-20 0 0">
+					<Shape>
+						<appearance>
+							<Material	DEF="Disk2D"
+										diffuseColor="0.10 0.10 1"
+										specularColor="0.101 0.801 0.001"
+										emissiveColor="0.000 0.000 0.000"
+										ambientIntensity="0.333"
+										shininess="0.06"
+										transparency="0"
+										/>
+						</appearance>
+						<Disk2D/>
+					</Shape>
+					<Transform translation="0 3 0" rotation="1 1 1 0.79">
+						<Shape>
+							<appearance>
+								<Material use="Disk2D"/>
+							</appearance>
+							<Disk2D outerRadius="2" innerRadius="1">
+							</Disk2D>
+						</Shape>
+					</Transform>
+					<Transform translation="0 8 0" scale="1.5 1.8 0.8">
+						<Shape>
+							<appearance>
+								<Material use="Disk2D"/>
+							</appearance>
+							<Disk2D outerRadius="1.2" innerRadius="1">
+							</Disk2D>
+						</Shape>
+					</Transform>
+					<Transform translation="0 15 0">
+						<Shape>
+							<appearance>
+								<Material use="Disk2D"/>
+							</appearance>
+							<Disk2D outerRadius="1.05" innerRadius="1">
+							</Disk2D>
+						</Shape>
+					</Transform>
+				</Transform>
+				<Transform translation="-27 0 0">
+				<Shape>
+						<appearance>
+							<Material	DEF="RecTor"
+										diffuseColor="1 0.20 1"
+										specularColor="0.1 0.801 0.001"
+										emissiveColor="0.000 0.000 0.000"
+										ambientIntensity="0.333"
+										shininess="0.06"
+										transparency="0"
+										/>
+						</appearance>
+						<RectangularTorus/>
+					</Shape>
+					<Transform translation="0 4 0" rotation="1 1 1 0.79">
+						<Shape>
+							<appearance>
+								<Material use="RecTor"/>
+							</appearance>
+							<RectangularTorus height="2" outerRadius="3" innerRadius="0.2">
+							</RectangularTorus>
+						</Shape>
+					</Transform>
+					<Transform translation="0 8 0" scale="1.5 1.8 0.8">
+						<Shape>
+							<appearance>
+								<Material use="RecTor"/>
+							</appearance>
+							<RectangularTorus height="1" outerRadius="1" innerRadius="0.9">
+							</RectangularTorus>
+						</Shape>
+					</Transform>
+					<Transform translation="0 15 0" rotation="1 1 1 0.8" scale="3 0.3 0.8">
+						<Shape>
+							<appearance>
+								<Material use="RecTor"/>
+							</appearance>
+							<RectangularTorus height="1" outerRadius="2" innerRadius="0.9">
+							</RectangularTorus>
+						</Shape>
+					</Transform>
+				</Transform>
+				<Transform translation="-35 0 0">
+				<Shape>
+						<appearance>
+							<Material	DEF="Arc2D"
+										diffuseColor="1 1 1"
+										specularColor="0.1 0.801 0.001"
+										emissiveColor="0.000 0.000 0.000"
+										ambientIntensity="0.333"
+										shininess="0.06"
+										transparency="0"
+										/>
+						</appearance>
+						<Arc2D/>
+					</Shape>
+					<Transform translation="0 4 0">
+						<Shape>
+							<appearance>
+								<Material use="Arc2D"/>
+							</appearance>
+							<Arc2D endAngle='3.570796'  startAngle='0' radius="3">
+							</Arc2D>
+						</Shape>
+					</Transform>
+					<Transform translation="0 8 0" scale="1.5 1.8 0.8">
+						<Shape>
+							<appearance>
+								<Material use="Arc2D"/>
+							</appearance>
+							<ArcClose2D radius='1'></ArcClose2D> 
+						</Shape>
+					</Transform>
+					<Transform translation="0 15 0" rotation="0 1 0 1.2">
+						<Shape>
+							<appearance>
+								<Material use="Arc2D"/>
+							</appearance>
+							<Arcclose2D endAngle='3.570796'  startAngle='0' radius="3">
+							</Arcclose2D>
+						</Shape>
+					</Transform>
+				</Transform>
+			</Transform>
+		</Transform>
+		<Transform DEF="Camera_TRANSFORM"
+				translation="-29 13 50"
+				scale="1.000000 1.000000 1.000000"
+				rotation="0 0 0 0"
+				>
+			<Viewpoint DEF="CA_Camera"
+					centerOfRotation="0 0 0"
+					position="-0.00 0.00 -0.00"
+					orientation="0.10 0.24 -0.97 0.00"
+					fieldOfView="0.858"
+					/>
+		</Transform>
+		<Transform DEF="Camera2_TRANSFORM"
+				translation="-10 -10 10"
+				scale="1.000000 1.000000 1.000000"
+				rotation="0 0 0 0"
+				>
+			<Viewpoint DEF="CA2_Camera"
+					centerOfRotation="0 0 0"
+					position="-0.00 0.00 -0.00"
+					orientation="0.10 0.24 -0.97 0.00"
+					fieldOfView="1.858"
+					/>
+		</Transform>
+		<Transform DEF="Point_TRANSFORM"
+				translation="5 0 10"
+				scale="1.000000 1.000000 1.000000"
+				rotation="0.000000 0 0 0"
+				>
+			<PointLight DEF="LA_Point"
+						ambientIntensity="0.0000"
+						color="0.80000 1.0000 1.0000" 
+						intensity="0.5714"
+						radius="25.0000" 
+						location="0.0000 0.0000 0.0000"
+						/>
+		</Transform>
+	</Scene>
+</X3D>

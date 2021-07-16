@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|Win32">
+      <Configuration>Test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|x64">
+      <Configuration>Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{875CCC02-C17C-4145-A074-6C7FB9250A48}</ProjectGuid>
+    <RootNamespace>VektoriaApp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\noobc\source\repos\Lib;$(DXSDK_DIR)Include;..\..\Lib;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\noobc\source\repos\Lib;$(DXSDK_DIR)Include;2010%29\Include;..\..\Lib;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\Users\noobc\source\repos\Lib;$(DXSDK_DIR)Lib\x86;..\..\Lib\Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>C:\Users\noobc\source\repos\Lib;$(DXSDK_DIR)Lib\x64;..\..\Lib\Debug64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Users\noobc\source\repos\Lib;$(DXSDK_DIR)Include;..\..\Lib;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">
+    <IncludePath>C:\Users\noobc\source\repos\Lib;$(DXSDK_DIR)Include;..\..\Lib;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\noobc\source\repos\Lib;$(DXSDK_DIR)Include;2010%29\Include;.\..\..\Lib;.\..\..\Lib\Release64;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'">
+    <IncludePath>C:\Users\noobc\source\repos\Lib;$(DXSDK_DIR)Include;2010%29\Include;.\..\..\Lib;.\..\..\Lib\Release64;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>C:\Users\noobc\source\repos\Lib;$(DXSDK_DIR)Lib\x86;$(LibraryPath);..\..\lib\Release</LibraryPath>
+    <ReferencePath>$(VC_ReferencesPath_x86);...\..\lib\Release</ReferencePath>
+    <SourcePath>$(VC_SourcePath);..\..\lib\Release</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">
+    <LibraryPath>C:\Users\noobc\source\repos\Lib;$(DXSDK_DIR)Lib\x86;$(LibraryPath);..\..\lib\Release</LibraryPath>
+    <ReferencePath>$(VC_ReferencesPath_x86);...\..\lib\Release</ReferencePath>
+    <SourcePath>$(VC_SourcePath);..\..\lib\Release</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LibraryPath>C:\Users\noobc\source\repos\Lib;.\..\..\Lib\Release64;.\..\..\Lib;$(DXSDK_DIR)Lib\x64;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(ExecutablePath);.\..\..\Lib\Release64;.\..\..\Lib;</ExecutablePath>
+    <ReferencePath>$(VC_ReferencesPath_x64);.\..\..\Lib\Release64;.\..\..\Lib;</ReferencePath>
+    <LibraryWPath>$(WindowsSDK_MetadataPath);.\..\..\Lib\Release64;.\..\..\Lib;</LibraryWPath>
+    <SourcePath>$(VC_SourcePath);</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'">
+    <LibraryPath>C:\Users\noobc\source\repos\Lib;.\..\..\Lib\Release64;.\..\..\Lib;$(DXSDK_DIR)Lib\x64;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(ExecutablePath);.\..\..\Lib\Release64;.\..\..\Lib;</ExecutablePath>
+    <ReferencePath>$(VC_ReferencesPath_x64);.\..\..\Lib\Release64;.\..\..\Lib;</ReferencePath>
+    <LibraryWPath>$(WindowsSDK_MetadataPath);.\..\..\Lib\Release64;.\..\..\Lib;</LibraryWPath>
+    <SourcePath>$(VC_SourcePath);</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions); _DEBUG;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions); _DEBUG;_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>.\..\..\Lib\Release64;.\..\Lib\Release64;.\..\..\Lib;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>.\..\..\Lib\Release64;.\..\Lib\Release64;.\..\..\Lib;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Appearance.h" />
+    <ClInclude Include="CGeoArcClose2D.h" />
+    <ClInclude Include="CGeoCircle2D.h" />
+    <ClInclude Include="x3dSubclasses.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="x3dDish.h" />
+    <ClInclude Include="x3dModel.h" />
+    <ClInclude Include="Pair.h" />
+    <ClInclude Include="CGeoPyramid.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="x3dPointSet.h" />
+    <ClInclude Include="x3dRectangularTorus.h" />
+    <ClInclude Include="x3dShape.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Vector3D.h" />
+    <ClInclude Include="x3dArc2D.h" />
+    <ClInclude Include="x3dArcClose2D.h" />
+    <ClInclude Include="x3dBox.h" />
+    <ClInclude Include="x3dCircle2D.h" />
+    <ClInclude Include="x3dCone.h" />
+    <ClInclude Include="x3dCylinder.h" />
+    <ClInclude Include="x3dDirectionalLight.h" />
+    <ClInclude Include="x3dDisk2D.h" />
+    <ClInclude Include="x3dImporter.h" />
+    <ClInclude Include="x3dLight.h" />
+    <ClInclude Include="x3dMaterial.h" />
+    <ClInclude Include="x3dObject.h" />
+    <ClInclude Include="x3dOrthoviewpoint.h" />
+    <ClInclude Include="x3dParser.h" />
+    <ClInclude Include="x3dPlane.h" />
+    <ClInclude Include="x3dPointLight.h" />
+    <ClInclude Include="x3dPyramid.h" />
+    <ClInclude Include="x3dSlopedCylinder.h" />
+    <ClInclude Include="x3dSnout.h" />
+    <ClInclude Include="x3dSphere.h" />
+    <ClInclude Include="x3dSphereSegment.h" />
+    <ClInclude Include="x3dSpotLight.h" />
+    <ClInclude Include="x3dText.h" />
+    <ClInclude Include="x3dTexture.h" />
+    <ClInclude Include="x3dTorus.h" />
+    <ClInclude Include="x3dView.h" />
+    <ClInclude Include="x3dViewpoint.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Appearance.cpp" />
+    <ClCompile Include="CGeoArcClose2D.cpp" />
+    <ClCompile Include="CGeoCircle2D.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="x3dDish.cpp" />
+    <ClCompile Include="x3dModel.cpp" />
+    <ClCompile Include="CGeoPyramid.cpp" />
+    <ClCompile Include="x3dPointSet.cpp" />
+    <ClCompile Include="x3dRectangularTorus.cpp" />
+    <ClCompile Include="x3dShape.cpp" />
+    <ClCompile Include="VektoriaApp.cpp" />
+    <ClCompile Include="x3dArc2D.cpp" />
+    <ClCompile Include="x3dArcClose2D.cpp" />
+    <ClCompile Include="x3dBox.cpp" />
+    <ClCompile Include="x3dCircle2D.cpp" />
+    <ClCompile Include="x3dCone.cpp" />
+    <ClCompile Include="x3dCylinder.cpp" />
+    <ClCompile Include="x3dDirectionalLight.cpp" />
+    <ClCompile Include="x3dDisk2D.cpp" />
+    <ClCompile Include="x3dImporter.cpp" />
+    <ClCompile Include="x3dLight.cpp" />
+    <ClCompile Include="x3dMaterial.cpp" />
+    <ClCompile Include="x3dObject.cpp" />
+    <ClCompile Include="x3dOrthoviewpoint.cpp" />
+    <ClCompile Include="x3dParser.cpp" />
+    <ClCompile Include="x3dPlane.cpp" />
+    <ClCompile Include="x3dPointLight.cpp" />
+    <ClCompile Include="x3dPyramid.cpp" />
+    <ClCompile Include="x3dSlopedCylinder.cpp" />
+    <ClCompile Include="x3dSnout.cpp" />
+    <ClCompile Include="x3dSphere.cpp" />
+    <ClCompile Include="x3dSphereSegment.cpp" />
+    <ClCompile Include="x3dSpotLight.cpp" />
+    <ClCompile Include="x3dText.cpp" />
+    <ClCompile Include="x3dTexture.cpp" />
+    <ClCompile Include="x3dTorus.cpp" />
+    <ClCompile Include="x3dView.cpp" />
+    <ClCompile Include="x3dViewpoint.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="res\VektoriaTest.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VektoriaApp.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

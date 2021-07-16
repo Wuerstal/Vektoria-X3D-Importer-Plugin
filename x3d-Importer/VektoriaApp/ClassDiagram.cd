@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Appearance" Collapsed="true">
+    <Position X="42.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAACTACpIAQgABAAAAEAAAABAAsgAgAAAAAgBQCIA=</HashCode>
+      <FileName>Appearance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGame" Collapsed="true">
+    <Position X="34.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgACoBAAAYAAEAAAAEgHACABZBAMAAAoHAAAAQAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix" Collapsed="true">
+    <Position X="37.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAArAAAAAIAAAAEAAAAQAhEAAAQAAAAACABAA=</HashCode>
+      <FileName>Matrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dDish" Collapsed="true">
+    <Position X="44" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAACAAAABQBABAAAAAAAAACQAEAGAAAAAABAAA=</HashCode>
+      <FileName>x3dDish.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dModel" Collapsed="true">
+    <Position X="46" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>yhBAEAABgkBASAAABAAiAAEAQAEBAAAAAAAAABAAAAg=</HashCode>
+      <FileName>x3dModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dPointSet" Collapsed="true">
+    <Position X="33.75" Y="21" Width="1.5" />
+    <InheritanceLine Type="x3dShape" ManuallyRouted="true">
+      <Path>
+        <Point X="39.375" Y="19.441" />
+        <Point X="39.375" Y="20.341" />
+        <Point X="34.5" Y="20.341" />
+        <Point X="34.5" Y="21" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAgAQCBAAACAAAAAgAAAAAA=</HashCode>
+      <FileName>x3dPointSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dRectangularTorus" Collapsed="true">
+    <Position X="39" Y="22" Width="1.5" />
+    <InheritanceLine Type="x3dShape" ManuallyRouted="true">
+      <Path>
+        <Point X="39.375" Y="19.441" />
+        <Point X="39.375" Y="20.372" />
+        <Point X="39.75" Y="20.372" />
+        <Point X="39.75" Y="22" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAAAAgQhAAIAEAAAAgAAQAAAEAAAAABRAAA=</HashCode>
+      <FileName>x3dRectangularTorus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dShape" Collapsed="true">
+    <Position X="38.25" Y="18.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEgAIAAAhAAAAABAAAACAAAgIABAAIAAAAACAAAA=</HashCode>
+      <FileName>x3dShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dArc2D" Collapsed="true">
+    <Position X="47" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAEAABAAACAAAAAAAAAgAgAAkIABBAAA=</HashCode>
+      <FileName>x3dArc2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dArcClose2D" Collapsed="true">
+    <Position X="30.75" Y="22" Width="1.5" />
+    <InheritanceLine Type="x3dShape" ManuallyRouted="true">
+      <Path>
+        <Point X="39.375" Y="19.441" />
+        <Point X="39.375" Y="20.357" />
+        <Point X="31.5" Y="20.357" />
+        <Point X="31.5" Y="22" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAQABAiAAAAAIAAAAAACAAAAAAAAAgAggAgIAABAAA=</HashCode>
+      <FileName>x3dArcClose2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dBox">
+    <Position X="32.75" Y="22" Width="1.5" />
+    <InheritanceLine Type="x3dShape" ManuallyRouted="true">
+      <Path>
+        <Point X="39.375" Y="19.441" />
+        <Point X="39.375" Y="20.403" />
+        <Point X="33.5" Y="20.403" />
+        <Point X="33.5" Y="22" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAQQAAAAAA=</HashCode>
+      <FileName>x3dBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dCircle2D" Collapsed="true">
+    <Position X="36" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAABAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>x3dCircle2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dCone">
+    <Position X="39.75" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAQACAAAIAAABAAABAAABAAAAAAACCAAAAAABAAA=</HashCode>
+      <FileName>x3dCone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dCylinder" Collapsed="true">
+    <Position X="42" Y="21" Width="1.5" />
+    <InheritanceLine Type="x3dShape" ManuallyRouted="true">
+      <Path>
+        <Point X="39.375" Y="19.441" />
+        <Point X="39.375" Y="20.357" />
+        <Point X="42.75" Y="20.357" />
+        <Point X="42.75" Y="21" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAABAgAAAAABAAAAAAABCAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>x3dCylinder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dDirectionalLight" Collapsed="true">
+    <Position X="22.75" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAkAAAAAIAAAIAAAAgAAAIAAABAAAoAAAAAAAAA=</HashCode>
+      <FileName>x3dDirectionalLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dDisk2D" Collapsed="true">
+    <Position X="48" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAEAAAAAAAIAAAAIIAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>x3dDisk2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dImporter">
+    <Position X="25.75" Y="12" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AABADGJAAgDAAAAAgABAAAGAAQAAADEAAAAIAABgCAA=</HashCode>
+      <FileName>x3dImporter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dLight">
+    <Position X="22.75" Y="19.5" Width="1.5" />
+    <InheritanceLine Type="x3dObject" ManuallyRouted="true">
+      <Path>
+        <Point X="36" Y="17.812" />
+        <Point X="36" Y="18.417" />
+        <Point X="23.5" Y="18.417" />
+        <Point X="23.5" Y="19.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ACEAgIQIAggAAAA4ACABgACAQAAgCAACAAAAgCEBAAA=</HashCode>
+      <FileName>x3dLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dMaterial" Collapsed="true">
+    <Position X="44.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAEAAPACAAABAAAiAgICAAIAAAQAASgAIAIAABAA=</HashCode>
+      <FileName>x3dMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dObject" Collapsed="true">
+    <Position X="35.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAAAABAooAAAAIABAAFCAAAAABEAEAgAAAAgAAAgA=</HashCode>
+      <FileName>x3dObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dOrthoviewpoint" Collapsed="true">
+    <Position X="27.25" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAIAAAAAAAAAAIAAAAAABAAAAA=</HashCode>
+      <FileName>x3dOrthoviewpoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dParser" Collapsed="true">
+    <Position X="34.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAEAAiFAIAgAAAAAAFRABRAEKgCIGNMLACBAAAMCIAA=</HashCode>
+      <FileName>x3dParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dPlane" Collapsed="true">
+    <Position X="49" Y="22" Width="1.5" />
+    <InheritanceLine Type="x3dShape" ManuallyRouted="true">
+      <Path>
+        <Point X="39.375" Y="19.441" />
+        <Point X="39.375" Y="20.364" />
+        <Point X="49.75" Y="20.364" />
+        <Point X="49.75" Y="22" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAIAAAAAABAAAAAAAAEAABIAAAAAAAQAABAAA=</HashCode>
+      <FileName>x3dPlane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dPointLight">
+    <Position X="20.5" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBAAAACAAAAAAAAAEAAAADAAEAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>x3dPointLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dPyramid">
+    <Position X="34.75" Y="23" Width="1.5" />
+    <InheritanceLine Type="x3dShape" ManuallyRouted="true">
+      <Path>
+        <Point X="39.375" Y="19.441" />
+        <Point X="39.375" Y="20.337" />
+        <Point X="35.5" Y="20.337" />
+        <Point X="35.5" Y="23" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAAAAQAQAAKABAAAQAAAAQACAAAAAQBgQAAA=</HashCode>
+      <FileName>x3dPyramid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dSlopedCylinder" Collapsed="true">
+    <Position X="37" Y="22" Width="1.5" />
+    <InheritanceLine Type="x3dShape" ManuallyRouted="true">
+      <Path>
+        <Point X="39.375" Y="19.441" />
+        <Point X="39.375" Y="20.372" />
+        <Point X="37.75" Y="20.372" />
+        <Point X="37.75" Y="22" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACABgMCAAAIBcBABAAAAgAAIAAQAAACABgAAABAAA=</HashCode>
+      <FileName>x3dSlopedCylinder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dSnout" Collapsed="true">
+    <Position X="41" Y="22" Width="1.5" />
+    <InheritanceLine Type="x3dShape" ManuallyRouted="true">
+      <Path>
+        <Point X="39.375" Y="19.441" />
+        <Point X="39.375" Y="20.357" />
+        <Point X="41.75" Y="20.357" />
+        <Point X="41.75" Y="22" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAARwEgCCAAAgQgAAAQAAAAAAABAABgAA=</HashCode>
+      <FileName>x3dSnout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dSphere" Collapsed="true">
+    <Position X="43" Y="22" Width="1.5" />
+    <InheritanceLine Type="x3dShape" ManuallyRouted="true">
+      <Path>
+        <Point X="39.375" Y="19.441" />
+        <Point X="39.375" Y="20.372" />
+        <Point X="43.75" Y="20.372" />
+        <Point X="43.75" Y="22" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAAABAAAAAAAAAAAAAAAgAACAAAAAAAA=</HashCode>
+      <FileName>x3dSphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dSphereSegment" Collapsed="true">
+    <Position X="45" Y="22" Width="1.5" />
+    <InheritanceLine Type="x3dShape" ManuallyRouted="true">
+      <Path>
+        <Point X="39.375" Y="19.441" />
+        <Point X="39.375" Y="20.364" />
+        <Point X="45.75" Y="20.364" />
+        <Point X="45.75" Y="22" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAwAAACAAAAAAAAQAABAAACAAAAAAIKAAAAAAgAAA=</HashCode>
+      <FileName>x3dSphereSegment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dSpotLight">
+    <Position X="25" Y="21" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAIQAAgAAAEEIAAgIAEAAgASACEAABAAgoAAAAAAAAI=</HashCode>
+      <FileName>x3dSpotLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dText" Collapsed="true">
+    <Position X="31.75" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAEBAAMBEAAARQtACAADAAAIEAAAAAAAAUABAAEA=</HashCode>
+      <FileName>x3dText.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dTexture" Collapsed="true">
+    <Position X="44.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAkAAAAAAAQAAAAAgGAgAIAAAAAAAAAAAgACA=</HashCode>
+      <FileName>x3dTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dTorus" Collapsed="true">
+    <Position X="38" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAgQAAAAAAACAABAAAAAABAAAAAAAAAAMAAAAABAAA=</HashCode>
+      <FileName>x3dTorus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dView" Collapsed="true">
+    <Position X="28.25" Y="19.5" Width="1.5" />
+    <InheritanceLine Type="x3dObject" ManuallyRouted="true">
+      <Path>
+        <Point X="36" Y="17.812" />
+        <Point X="36" Y="18.397" />
+        <Point X="29" Y="18.397" />
+        <Point X="29" Y="19.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABIAQAgAQAQAAAACAAIBAAAAAAAAAAEASAAAQAAAA=</HashCode>
+      <FileName>x3dView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="x3dViewpoint" Collapsed="true">
+    <Position X="29.5" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAABAAEAAAAA=</HashCode>
+      <FileName>x3dViewpoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
