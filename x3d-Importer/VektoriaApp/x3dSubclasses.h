@@ -1,3 +1,5 @@
+//Autor: Lukas Zickl
+
 #include "x3dBox.h"
 #include "x3dArcClose2D.h"
 #include "x3dArc2D.h"

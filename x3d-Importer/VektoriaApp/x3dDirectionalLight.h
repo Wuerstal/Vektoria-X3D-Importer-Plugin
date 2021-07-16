@@ -1,3 +1,5 @@
+//Autor: Lukas Zickl
+
 #pragma once
 #include "x3dLight.h"
 class x3dDirectionalLight :

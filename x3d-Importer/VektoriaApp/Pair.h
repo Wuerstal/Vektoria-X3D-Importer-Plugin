@@ -1,5 +1,6 @@
 /*
 Template-Klasse zum speichern zweier unabhängiger Datentypen.
+Autor: Lukas Zickl
 */
 
 #pragma once

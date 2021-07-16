@@ -1,6 +1,7 @@
 /*
 Schnittstellen-Klasse zwischen dem x3dParser und der VektoriaEngine. 
 Der x3dImporter nutzt die Informationen, die der Parser liefert, um daraus Vektoria Objekte zu erzeugen.
+Autor: Lukas Zickl
 */
 
 #pragma once

@@ -1,3 +1,5 @@
+//Autor: Lukas Zickl
+
 #pragma once
 #include "x3dView.h"
 class x3dOrthoviewpoint :

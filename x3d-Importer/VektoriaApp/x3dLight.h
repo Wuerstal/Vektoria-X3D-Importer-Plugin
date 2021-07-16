@@ -1,5 +1,6 @@
 /*
 Klasse für Informationen, die alle Lichter des x3d-Formates betreffen.
+Autor: Lukas Zickl
 */
 
 #pragma once

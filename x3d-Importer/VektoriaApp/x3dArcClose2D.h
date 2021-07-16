@@ -1,3 +1,5 @@
+//Autor: Lukas Zickl
+
 #pragma once
 #include "x3dShape.h"
 class x3dArcClose2D:public x3dShape

@@ -1,5 +1,6 @@
 /*
 Mutterklasse für Objekte. Enthält Zeilenzahl für Start und End-Tag, die Objekt ID und die Transformationsmatirx des Objektes.
+Autor: Lukas Zickl
 */
 
 #pragma once

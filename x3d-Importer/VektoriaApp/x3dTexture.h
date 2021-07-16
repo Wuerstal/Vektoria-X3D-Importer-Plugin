@@ -1,3 +1,5 @@
+//Autor: Lukas Zickl
+
 #pragma once
 #include <string>
 #include <vector>

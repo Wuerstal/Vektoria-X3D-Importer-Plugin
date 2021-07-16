@@ -1,3 +1,5 @@
+//Autor: Lukas Zickl
+
 #pragma once
 #include "Vektoria\Root.h"
 using namespace Vektoria;

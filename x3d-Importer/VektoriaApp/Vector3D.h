@@ -1,5 +1,6 @@
 /*
 Klasse für einen Vektor. Dient als Schnittstelle zwischen Importer und Vektoria.
+Autor: Lukas Zickl
 */
 
 #pragma once

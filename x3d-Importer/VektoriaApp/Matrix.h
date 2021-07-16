@@ -1,5 +1,6 @@
 /*
 Hält und wertet Informationen aus dem <Transformation> Tag aus.
+Autor: Lukas Zickl
 */
 
 #pragma once

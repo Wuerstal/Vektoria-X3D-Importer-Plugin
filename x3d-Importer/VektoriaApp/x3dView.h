@@ -1,5 +1,6 @@
 /*
 Hält und wertet Informationen aus, die jeder Viewpoint besitzt.
+Autor: Lukas Zickl
 */
 
 #pragma once

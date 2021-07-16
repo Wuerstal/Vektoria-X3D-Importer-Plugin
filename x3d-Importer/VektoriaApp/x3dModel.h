@@ -1,5 +1,6 @@
 /*
 Hält und wertet die Informationen einer triangulierten Geometrie aus.
+Autor: Lukas Zickl
 */
 
 #pragma once

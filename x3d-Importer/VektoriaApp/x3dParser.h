@@ -2,6 +2,7 @@
 Der Parser ließt die Datei Zeile für Zeile. Ruft bei erkennen eines Tags eine dazu passende Unterklasse von x3dObject auf. 
 Die relevanten Informationen für diese werden dann in der Unterklasse ausgewertet und gespeichert.
 getObjects gibt einen std::vector mit x3dObject Typen zurück, in dem sämtliche Geometrien, Beleuchtungselemente und Kameras gespeichert sind.
+Autor: Lukas Zickl
 */
 
 #pragma once

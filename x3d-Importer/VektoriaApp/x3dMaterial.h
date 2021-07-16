@@ -1,5 +1,6 @@
 /*
 Hält und wertet Informationen des im <Appearance> Tag definierten Materials.
+Autor: Lukas Zickl
 */
 
 #pragma once

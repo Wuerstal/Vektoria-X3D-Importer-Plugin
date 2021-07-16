@@ -1,5 +1,6 @@
 /*
 Hält und wertet Informationen für das aussehen einer Geometrie aus.
+Autor: Lukas Zickl
 */
 
 #pragma once
