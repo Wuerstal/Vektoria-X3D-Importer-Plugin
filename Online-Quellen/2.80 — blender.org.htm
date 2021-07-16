@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8">
+		<title>  2.80 &mdash; blender.org</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Blender 2.80 features a redesigned user interface that puts the focus on the artwork that you create." >
+
+							
+		<meta name="author" content="Blender Foundation">
+		<meta name="theme-color" content="#ed8f31">
+		<meta property="og:site_name" content="blender.org" >
+		<meta property="og:title" content="  2.80 &mdash; blender.org" >
+		<meta property="og:description" content="Blender 2.80 features a redesigned user interface that puts the focus on the artwork that you create.">
+		<meta property="og:url" content="https://www.blender.org/download/releases/2-80/">
+		<meta property="og:image" content="https://www.blender.org/wp-content/uploads/2019/07/blender_made_by_you.jpg">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@blender_org">
+		<meta name="twitter:title" content="  2.80 &mdash; blender.org">
+		<meta name="twitter:description" content="Blender 2.80 features a redesigned user interface that puts the focus on the artwork that you create.">
+		<meta name="twitter:image" content="https://www.blender.org/wp-content/uploads/2019/07/blender_made_by_you.jpg">
+
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<link rel="shortcut icon" href="https://www.blender.org/wp-content/themes/bthree/assets/images/favicon.ico?x20228">
+		<link rel="stylesheet" href="https://www.blender.org/wp-content/themes/bthree/style.css?x20228" type="text/css" media="screen" />
+
+		<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.blender.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.blender.org/wp-includes/css/dist/block-library/style.min.css?x20228' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-show-posts-css'  href='https://www.blender.org/wp-content/plugins/wp-show-posts/css/wp-show-posts-min.css?x20228' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://www.blender.org/wp-json/" /><link rel="alternate" type="application/json" href="https://www.blender.org/wp-json/wp/v2/pages/55942" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.blender.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.blender.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<link rel="canonical" href="https://www.blender.org/download/releases/2-80/" />
+<link rel='shortlink' href='https://www.blender.org/?p=55942' />
+<link rel="alternate" type="application/json+oembed" href="https://www.blender.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.blender.org%2Fdownload%2Freleases%2F2-80%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.blender.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.blender.org%2Fdownload%2Freleases%2F2-80%2F&#038;format=xml" />
+
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	
+	<body class="ps-2-80">
+		<div id="isolated"></div>
+		<div class="container-main">
+
+		
+		<nav class="navbar navbar-expand-md navbar-primary fixed-top" role="navigation">
+			<div class="container">
+				<a class="navbar-brand navbar-logo-blender" href="https://www.blender.org" title="Go to blender.org"></a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-menu">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbar-collapse-menu">
+					<ul class="navbar-nav ml-auto">
+						<li id="menu-item-58172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58172"><a href="https://www.blender.org/features/" class="nav-link">Features</a></li>
+<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-125"><a title="Download" href="https://www.blender.org/download/" class="nav-link">Download</a></li>
+<li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a href="https://www.blender.org/support/" class="nav-link">Support</a></li>
+<li id="menu-item-9" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9"><a href="https://www.blender.org/get-involved/" class="nav-link">Get Involved</a></li>
+<li id="menu-item-164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-164"><a href="https://www.blender.org/about/" class="nav-link">About</a></li>
+<li id="menu-item-71848" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71848"><a title="Jobs [NEW]" href="https://www.blender.org/jobs/" class="nav-link">Jobs</a></li>
+<li id="menu-item-1972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1972"><a href="http://store.blender.org" class="nav-link">Store</a></li>
+<li id="menu-item-30672" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30672"><a title="Join the Development Fund" href="https://fund.blender.org/" class="nav-link"><i class="fa fa-heart"></i> Donate</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+	
+
+
+<div class="featured large"
+		style="background-image: url(https://www.blender.org/wp-content/uploads/2019/07/blender_made_by_you_header.jpg); ">
+
+	
+	<div class="container justify-content-center text-center">
+		<div class="featured-content align-self-center">
+			<h1 class="mx-4 display-3">
+				Blender, made by you			</h1>
+
+			
+							<div class="page-header-main-ctas px-3 justify-content-center">
+											<div class="page-header-main-cta">
+							<a href="https://www.blender.org/download/" class="cta-primary">
+								Download Blender							</a>
+						</div>
+														</div>
+					</div>
+	</div>
+
+	
+				
+			<div id="featured-overlay-video" class="featured-overlay-video" style="background-image: url(https://www.blender.org/wp-content/uploads/2019/07/blender_made_by_you_header.jpg); ">
+			<div id="bgvideo"></div>
+		</div>
+	
+	<div style="background-image: none; background-color: #0a0a0a;opacity: 0.3;" class="featured-overlay"></div>
+</div>
+
+            <nav class="navbar navbar-secondary" role="navigation">
+                <div class="container">
+                    <ul class="navbar-nav  mx-auto">
+                                                    <li class="nav-item px-0">
+                                <a class="nav-link text-center text-muted" href="https://www.blender.org/download/">
+                                    Download                                </a>
+                            </li>
+                            <li class="nav-item text-center" style="pointer-events: none">
+                                <a class="pr-0" style="padding: 0 !important;" href="https://www.blender.org/download/"><i class="fa fa-angle-right"  style="padding: 0 !important;"></i></a>
+                            </li>
+                                                <li class="page_item page-item-70621"><a href="https://www.blender.org/download/lts/">Long-term Support</a></li>
+<li class="page_item page-item-3459 page_item_has_children current_page_ancestor current_page_parent"><a href="https://www.blender.org/download/releases/">Release Notes</a></li>
+<li class="page_item page-item-157"><a href="https://www.blender.org/download/requirements/">Requirements</a></li>
+<li class="page_item page-item-24170"><a href="https://www.blender.org/download/demo-files/">Demo Files</a></li>
+<li class="page_item page-item-112"><a href="https://www.blender.org/download/previous-versions/">Previous Versions</a></li>
+                    </ul>
+                </div>
+            </nav>
+                    <nav class="navbar navbar-secondary" role="navigation">
+                <div class="container">
+                    <ul class="navbar-nav  mx-auto">
+                                                <li class="page_item page-item-75072"><a href="https://www.blender.org/download/releases/2-92/">2.92</a></li>
+<li class="page_item page-item-73822"><a href="https://www.blender.org/download/releases/2-91/">2.91</a></li>
+<li class="page_item page-item-69846"><a href="https://www.blender.org/download/releases/2-90/">2.90</a></li>
+<li class="page_item page-item-69845"><a href="https://www.blender.org/download/releases/2-83/">2.83 LTS</a></li>
+<li class="page_item page-item-66324"><a href="https://www.blender.org/download/releases/2-82/">2.82</a></li>
+<li class="page_item page-item-64812"><a href="https://www.blender.org/download/releases/2-81/">2.81</a></li>
+<li class="page_item page-item-55942 current_page_item"><a href="https://www.blender.org/download/releases/2-80/" aria-current="page">2.80</a></li>
+                    </ul>
+                </div>
+            </nav>
+        
+
+<script type="text/javascript">
+	/* YT Video Background. Modified from https://codepen.io/ccrch/pen/GgPLVW */
+	var videoId = "6fCrUjr1St4";
+	var tag = document.createElement('script');
+			tag.src = 'https://www.youtube.com/player_api';
+	var firstScriptTag = document.getElementsByTagName('script')[0];
+			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+	var bgvideo,
+			playerDefaults = {autoplay: 0, autohide: 1, modestbranding: 0, rel: 0, loop: true, showinfo: 0, controls: 0, disablekb: 1, enablejsapi: 0, iv_load_policy: 3};
+	var vid = {'videoId': videoId, 'startSeconds': 10, 'endSeconds': 49, 'suggestedQuality': 'hd720'};
+
+	function onYouTubePlayerAPIReady(){
+	  bgvideo = new YT.Player('bgvideo', {events: {'onReady': onPlayerReady, 'onStateChange': onPlayerStateChange, 'onError': onPlayerError}, playerVars: playerDefaults});
+	}
+
+	function onPlayerReady(){
+	  bgvideo.loadVideoById(vid);
+	  bgvideo.mute();
+	}
+
+	function onPlayerStateChange(e) {
+	  if(e.data === YT.PlayerState.ENDED){
+	  	bgvideo.seekTo(vid.startSeconds);
+	  }
+	}
+
+	function onPlayerError(){
+		let video = document.getElementById('featured-overlay-video');
+		video.classList += ' hidden';
+	}
+</script>
+
+
+
+<div class="release-logs bg-white">
+	
+	
+					
+			<div
+				id=""
+				class="features__releaselogs_section odd major-feature"
+				style="								">
+
+				
+				<div class="container">
+
+					<div class="features__releaselogs_section-box box-align-full">
+
+						<div class="features__releaselogs_section-intro ">
+							
+							<div class="features__releaselogs_section-description">
+
+								
+																	<div class="description-text"><p>The 2.80 release is dedicated to everyone who has contributed to Blender. To the tirelessly devoted developers. To the artists inspiring them with demos. To the documentation writers. To the Blender Cloud subscribers. To the bug reporters. To the designers. To the Code Quest supporters. To the donators and to the members of the Development Fund. Blender is made by you. Thanks!</p>
+</div>
+								
+															</div>
+						</div>
+
+												
+					</div>
+				</div>
+			</div>
+
+								
+			<div
+				id=""
+				class="features__releaselogs_section  "
+				style="background-image: url(https://www.blender.org/wp-content/uploads/2019/07/blender_made_by_you_header.jpg);								">
+
+				
+				<div class="container">
+
+					<div class="features__releaselogs_section-box box-align-full">
+
+						<div class="features__releaselogs_section-intro ">
+							
+							<div class="features__releaselogs_section-description">
+
+								
+																	<div class="description-text"><div class="py-5 my-5"></div>
+</div>
+								
+															</div>
+						</div>
+
+												
+					</div>
+				</div>
+			</div>
+
+								
+			<div
+				id="a-fresh-start"
+				class="features__releaselogs_section odd major-feature"
+				style="								">
+
+				
+				<div class="container">
+
+					<div class="features__releaselogs_section-box box-align-full">
+
+						<div class="features__releaselogs_section-intro ">
+							
+							<div class="features__releaselogs_section-description">
+
+																	<a href="#a-fresh-start" class="features__releaselogs_section-title">
+										A Fresh Start										<span><i class="fa fa-link"></i></span>
+									</a>
+								
+																	<div class="description-text"><p>Blender 2.80 features a redesigned user interface that puts the focus on the artwork that you create. A new dark theme and modern icon set were introduced. Keyboard, mouse and tablet interaction got a refresh with left click select as the new default. <em>Quick Favorites</em> menus provide rapid access to often-used tools.</p>
+</div>
+								
+																	<a class="read-more" href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/UI">
+										Read more <i class="fa fa-angle-right"></i>
+									</a>
+															</div>
+						</div>
+
+												
+
+								
+
+																	<div class="mb-5">
+
+																		<div class="images-compare">
+										<div style="display: none;">
+																							<span class="images-compare-label">
+													Blender 2.79												</span>
+																						<img src="https://www.blender.org/wp-content/uploads/2019/07/blender_279_screenshot-1280x720.jpg?x20228">
+										</div>
+										<div>
+																							<span class="images-compare-label">
+													Blender 2.80												</span>
+																						<img src="https://www.blender.org/wp-content/uploads/2019/07/blender_280_screenshot-1280x720.jpg?x20228">
+										</div>
+									</div>
+																		</div>
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+							
+						
+					</div>
+				</div>
+			</div>
+
+								
+			<div
+				id="a-whole-new-workspace"
+				class="features__releaselogs_section  major-feature"
+				style="								">
+
+				
+				<div class="container">
+
+					<div class="features__releaselogs_section-box box-align-full">
+
+						<div class="features__releaselogs_section-intro ">
+							
+							<div class="features__releaselogs_section-description">
+
+																	<a href="#a-whole-new-workspace" class="features__releaselogs_section-title">
+										A Whole New Workspace										<span><i class="fa fa-link"></i></span>
+									</a>
+								
+																	<div class="description-text"><p>Templates and workspaces let you quickly get started with tasks like sculpting, texture painting or motion tracking. They can be customized to create your own efficient working environment.</p>
+</div>
+								
+																	<a class="read-more" href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/UI#Templates">
+										Read more <i class="fa fa-angle-right"></i>
+									</a>
+															</div>
+						</div>
+
+												
+
+								
+
+								
+
+								
+
+								
+
+								
+
+																<div class="container mb-5">
+									<ul class="nav nav-tabs mb-3 list-bullets-none justify-content-center" role="tablist">
+																				<li class="nav-item">
+											<a	class="nav-link py-2 active"
+													id="t-sculpt-0-tab" data-toggle="pill" href="#t-sculpt-0" role="tab"
+													aria-controls="t-sculpt-0" aria-selected="true">
+												Sculpt											</a>
+										</li>
+																				<li class="nav-item">
+											<a	class="nav-link py-2 "
+													id="t-model-1-tab" data-toggle="pill" href="#t-model-1" role="tab"
+													aria-controls="t-model-1" aria-selected="false">
+												Model											</a>
+										</li>
+																				<li class="nav-item">
+											<a	class="nav-link py-2 "
+													id="t-animate-2-tab" data-toggle="pill" href="#t-animate-2" role="tab"
+													aria-controls="t-animate-2" aria-selected="false">
+												Animate											</a>
+										</li>
+																				<li class="nav-item">
+											<a	class="nav-link py-2 "
+													id="t-edit-grade-3-tab" data-toggle="pill" href="#t-edit-grade-3" role="tab"
+													aria-controls="t-edit-grade-3" aria-selected="false">
+												Edit & Grade											</a>
+										</li>
+																			</ul>
+									<div class="tab-content text-center">
+																					<div class="tab-pane show active" id="t-sculpt-0" role="tabpanel" aria-labelledby="t-sculpt-0-tab">
+																																					<img src="https://www.blender.org/wp-content/uploads/2019/07/sculpt01.jpg?x20228" class="img-fluid rounded">
+																																			</div>
+																					<div class="tab-pane " id="t-model-1" role="tabpanel" aria-labelledby="t-model-1-tab">
+																																					<img src="https://www.blender.org/wp-content/uploads/2019/07/alpha_studio_editmode_widget.jpg?x20228" class="img-fluid rounded">
+																																			</div>
+																					<div class="tab-pane " id="t-animate-2" role="tabpanel" aria-labelledby="t-animate-2-tab">
+																																					<img src="https://www.blender.org/wp-content/uploads/2019/07/animation01.jpg?x20228" class="img-fluid rounded">
+																																			</div>
+																					<div class="tab-pane " id="t-edit-grade-3" role="tabpanel" aria-labelledby="t-edit-grade-3-tab">
+																																					<img src="https://www.blender.org/wp-content/uploads/2019/07/vse_custom_grade.jpg?x20228" class="img-fluid rounded">
+																																			</div>
+																			</div>
+								</div>
+								
+
+								
+							
+						
+					</div>
+				</div>
+			</div>
+
+								
+			<div
+				id="what-you-see-is-what-you-need"
+				class="features__releaselogs_section odd major-feature"
+				style="								">
+
+				
+				<div class="container">
+
+					<div class="features__releaselogs_section-box box-align-full">
+
+						<div class="features__releaselogs_section-intro ">
+							
+							<div class="features__releaselogs_section-description">
+
+																	<a href="#what-you-see-is-what-you-need" class="features__releaselogs_section-title">
+										What You See Is What You Need										<span><i class="fa fa-link"></i></span>
+									</a>
+								
+																	<div class="description-text"><p>Thanks to the new modern 3D viewport you will be able to display a scene optimized for the task you are performing. A new <em>Workbench</em> render engine was designed for getting work done in the viewport, supporting tasks like scene layout, modeling and sculpting. The engine also feature overlays, providing fine control over which utilities are visible on top of the render. </p>
+<p>Overlays also work on top of Eevee and Cycles render previews, so you can edit and paint the scene with full shading.</p>
+</div>
+								
+																	<a class="read-more" href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Viewport">
+										Read more <i class="fa fa-angle-right"></i>
+									</a>
+															</div>
+						</div>
+
+												
+
+								
+
+								
+
+								
+
+								
+
+								
+
+																<div class="container mb-5">
+									<ul class="nav nav-tabs mb-3 list-bullets-none justify-content-center" role="tablist">
+																				<li class="nav-item">
+											<a	class="nav-link py-2 active"
+													id="t-random-colors-0-tab" data-toggle="pill" href="#t-random-colors-0" role="tab"
+													aria-controls="t-random-colors-0" aria-selected="true">
+												Random Colors											</a>
+										</li>
+																				<li class="nav-item">
+											<a	class="nav-link py-2 "
+													id="t-colored-wireframes-1-tab" data-toggle="pill" href="#t-colored-wireframes-1" role="tab"
+													aria-controls="t-colored-wireframes-1" aria-selected="false">
+												Colored Wireframes											</a>
+										</li>
+																				<li class="nav-item">
+											<a	class="nav-link py-2 "
+													id="t-look-dev-2-tab" data-toggle="pill" href="#t-look-dev-2" role="tab"
+													aria-controls="t-look-dev-2" aria-selected="false">
+												Look Dev											</a>
+										</li>
+																			</ul>
+									<div class="tab-content text-center">
+																					<div class="tab-pane show active" id="t-random-colors-0" role="tabpanel" aria-labelledby="t-random-colors-0-tab">
+																																					<img src="https://www.blender.org/wp-content/uploads/2019/07/alpha_studio_random_cavity_shadow.png?x20228" class="img-fluid rounded">
+																																			</div>
+																					<div class="tab-pane " id="t-colored-wireframes-1" role="tabpanel" aria-labelledby="t-colored-wireframes-1-tab">
+																																					<img src="https://www.blender.org/wp-content/uploads/2019/07/alpha_wire_random.jpg?x20228" class="img-fluid rounded">
+																																			</div>
+																					<div class="tab-pane " id="t-look-dev-2" role="tabpanel" aria-labelledby="t-look-dev-2-tab">
+																																					<img src="https://www.blender.org/wp-content/uploads/2019/07/alpha_lookdev_texturing.png?x20228" class="img-fluid rounded">
+																																			</div>
+																			</div>
+								</div>
+								
+
+								
+							
+						
+					</div>
+				</div>
+			</div>
+
+								
+			<div
+				id="tools-gizmos"
+				class="features__releaselogs_section  major-feature"
+				style="								">
+
+				
+				<div class="container">
+
+					<div class="features__releaselogs_section-box box-align-full">
+
+						<div class="features__releaselogs_section-intro ">
+							
+							<div class="features__releaselogs_section-description">
+
+																	<a href="#tools-gizmos" class="features__releaselogs_section-title">
+										Tools & Gizmos										<span><i class="fa fa-link"></i></span>
+									</a>
+								
+																	<div class="description-text"><p>The 3D viewport and UV editor have new interactive tools and gizmos, along with a new toolbar. These make it easier for new users to start using Blender, and for existing users to discover and use tools that previously required obscure key combinations.</p>
+<p>Besides gizmos for tools, various elements like lights, camera, and the compositing backdrop image now have handles to adjust their shape or other attributes.</p>
+</div>
+								
+															</div>
+						</div>
+
+												
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+																	
+									<div class="cards-list cards-2  mb-5">
+										
+											<div class="cards-list-item-outer">
+												<div class="cards-list-item-inner" style="">
+
+																																									<div class="cards-list-item-thumbnail">
+															<img src="https://www.blender.org/wp-content/uploads/2019/07/widget_rotate.jpg?x20228">
+														</div>
+																											
+																										<div class="cards-list-item-info">
+																													<span class="cards-list-item-title">Intuitive Widgets</span>
+														
+																													<span class="cards-list-item-excerpt" href=""><p><span class="lead">A set of simple yet functional controls will make 3D interaction fun again.</span></p>
+</span>
+																											</div>
+																									</div>
+											</div>
+
+										
+											<div class="cards-list-item-outer">
+												<div class="cards-list-item-inner" style="">
+
+																																									<div class="cards-list-item-thumbnail">
+															<img src="https://www.blender.org/wp-content/uploads/2019/07/edit_toolbar.jpg?x20228">
+														</div>
+																											
+																										<div class="cards-list-item-info">
+																													<span class="cards-list-item-title">Toolbars</span>
+														
+																													<span class="cards-list-item-excerpt" href=""><p><span class="lead">The new contextual toolbars enable you to quickly access and discover the right tool for the job.</span></p>
+</span>
+																											</div>
+																									</div>
+											</div>
+
+																			</div>
+								
+							
+						
+					</div>
+				</div>
+			</div>
+
+								
+			<div
+				id="real-time"
+				class="features__releaselogs_section odd major-feature"
+				style="								">
+
+				
+				<div class="container">
+
+					<div class="features__releaselogs_section-box box-align-full">
+
+						<div class="features__releaselogs_section-intro ">
+							
+							<div class="features__releaselogs_section-description">
+
+																	<a href="#real-time" class="features__releaselogs_section-title">
+										Real Time										<span><i class="fa fa-link"></i></span>
+									</a>
+								
+																	<div class="description-text"><p>Eevee is a new physically based real-time renderer. It works both as a renderer for final frames, and as the engine driving Blender’s realtime viewport for creating assets.<br />
+It has advanced features such as volumetrics, screen-space reflections and refractions, subsurface scattering, soft and contact shadows, depth of field, camera motion blur and bloom.</p>
+</div>
+								
+																	<a class="read-more" href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/EEVEE">
+										Read more <i class="fa fa-angle-right"></i>
+									</a>
+															</div>
+						</div>
+
+												
+
+								
+
+								
+
+																	<div class="embed-container">
+										<iframe title="Tiger - Blender 2.80 demo by Daniel Bystedt" width="640" height="360" src="https://www.youtube.com/embed/XHyM9T4vYgo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>									</div>
+								
+
+								
+
+								
+
+								
+
+								
+							
+
+								
+
+								
+
+								
+
+																	<div class="lead p-5">
+										<p>Eevee materials are created using the same shader nodes as Cycles, making it easy to render existing scenes. For Cycles users, this compatibility makes Eevee work great as a realtime preview. For game artists, the Principled BSDF is compatible with shading models used in many game engines.</p>
+									</div>
+								
+
+								
+
+								
+
+								
+							
+
+																<div class="features__releaselogs_section-gallery mb-5">
+
+									
+										
+										
+											<figure>
+												<i class="gallery-item-icon fa fa-play"></i>
+												<img
+													class="js-isolify"
+													src="https://www.blender.org/wp-content/uploads/2019/07/eevee_goodnight_claire-512x288.jpg?x20228"
+													data-url="&lt;iframe title=&quot;Goodnight Claire - Blender 2.80 demo by Daniel Bystedt&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/1n_4Cr3vq-Q?feature=oembed&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;"
+													data-type="oembed"
+													data-credits=""
+													/>
+											</figure>
+
+																			
+										
+										
+											<figure>
+												<i class="gallery-item-icon fa fa-play"></i>
+												<img
+													class="js-isolify"
+													src="https://www.blender.org/wp-content/uploads/2019/07/eevee_tree_creature-512x288.jpg?x20228"
+													data-url="&lt;iframe title=&quot;Tree Creature - Blender 2.80 demo by Daniel Bystedt&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/I2Ayvciyz-k?feature=oembed&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;"
+													data-type="oembed"
+													data-credits=""
+													/>
+											</figure>
+
+																											</div>
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+							
+						
+					</div>
+				</div>
+			</div>
+
+								
+			<div
+				id="2d-animation"
+				class="features__releaselogs_section  major-feature"
+				style="								">
+
+				
+				<div class="container">
+
+					<div class="features__releaselogs_section-box box-align-full">
+
+						<div class="features__releaselogs_section-intro ">
+							
+							<div class="features__releaselogs_section-description">
+
+																	<a href="#2d-animation" class="features__releaselogs_section-title">
+										2D Animation										<span><i class="fa fa-link"></i></span>
+									</a>
+								
+																	<div class="description-text"><p>Grease Pencil is now a full 2D drawing and animation system. This unprecedented integration of 2D tools in a 3D environment will enable you to create next-level concept art, storyboards and animations.</p>
+</div>
+								
+																	<a class="read-more" href="https://code.blender.org/2017/12/drawing-2d-animation-in-blender-2-8/">
+										Read more <i class="fa fa-angle-right"></i>
+									</a>
+															</div>
+						</div>
+
+												
+
+								
+
+								
+
+																	<div class="embed-container">
+										<iframe title="Grease Pencil Sketching - Blender 2.80 demo by Jama Jurabaev" width="640" height="360" src="https://www.youtube.com/embed/JF3KM-Ye5_A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>									</div>
+								
+
+								
+
+								
+
+								
+
+								
+							
+
+								
+
+								
+
+								
+
+																	<div class="lead p-5">
+										<p>Grease Pencil objects are a native part of Blender, integrating with existing object selection, editing, management, and linking tools. Strokes can be organized into layers, and shaded with materials and textures. Besides a draw mode for strokes, these objects can also be edited, sculpted and weight painted similarly to meshes.</p>
+<p>Modifiers can be used to deform, generate and color strokes. Commonly used mesh modifiers such as array, subdivide and armature deform have equivalents for strokes. Rendering effects like blur, shadows or rim lighting are also available.</p>
+									</div>
+								
+
+								
+
+								
+
+								
+							
+
+																<div class="features__releaselogs_section-gallery mb-5">
+
+									
+										
+										
+											<figure>
+												<i class="gallery-item-icon fa fa-play"></i>
+												<img
+													class="js-isolify"
+													src="https://www.blender.org/wp-content/uploads/2019/07/gp_suit-512x288.jpg?x20228"
+													data-url="&lt;iframe title=&quot;Space Suit - Blender 2.80 demo by Jama Jurabaev&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/-iF3nNvJd1A?feature=oembed&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;"
+													data-type="oembed"
+													data-credits=""
+													/>
+											</figure>
+
+																			
+										
+										
+											<figure>
+												<i class="gallery-item-icon fa fa-play"></i>
+												<img
+													class="js-isolify"
+													src="https://www.blender.org/wp-content/uploads/2019/07/gp_hero-512x288.jpg?x20228"
+													data-url="&lt;iframe title=&quot;HERO – Blender Grease Pencil Showcase&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/pKmSdY56VtY?feature=oembed&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;"
+													data-type="oembed"
+													data-credits=""
+													/>
+											</figure>
+
+																											</div>
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+							
+						
+					</div>
+				</div>
+			</div>
+
+								
+			<div
+				id="cycles"
+				class="features__releaselogs_section odd major-feature"
+				style="								">
+
+				
+				<div class="container">
+
+					<div class="features__releaselogs_section-box box-align-full">
+
+						<div class="features__releaselogs_section-intro ">
+							
+							<div class="features__releaselogs_section-description">
+
+																	<a href="#cycles" class="features__releaselogs_section-title">
+										Cycles										<span><i class="fa fa-link"></i></span>
+									</a>
+								
+																	<div class="description-text"><p>Cycles now provides industry-standard functionality such as Cryptomatte, BSDF hair and volume shading and Random Walk Subsurface scattering. Many rendering optimizations were done including combined CPU and GPU rendering, much improved OpenCL start and render time, and CUDA support for scenes that don&#8217;t fit in GPU memory.</p>
+</div>
+								
+																	<a class="read-more" href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Cycles">
+										Read more <i class="fa fa-angle-right"></i>
+									</a>
+															</div>
+						</div>
+
+												
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+																	
+									<div class="cards-list cards-2  mb-5">
+										
+											<div class="cards-list-item-outer">
+												<div class="cards-list-item-inner" style="">
+
+																																									<div class="cards-list-item-thumbnail">
+															<img src="https://www.blender.org/wp-content/uploads/2019/07/cycles_hair.jpg?x20228">
+														</div>
+																											
+																										<div class="cards-list-item-info">
+																													<span class="cards-list-item-title">Principled Hair BSDF</span>
+														
+																													<span class="cards-list-item-excerpt" href=""><p><span class="lead">Rendering physically based hair and fur is now easier and no longer requires setting up a complex shader network.</span></p>
+</span>
+																											</div>
+																									</div>
+											</div>
+
+										
+											<div class="cards-list-item-outer">
+												<div class="cards-list-item-inner" style="">
+
+																																									<div class="cards-list-item-thumbnail">
+															<img src="https://www.blender.org/wp-content/uploads/2019/07/cycles_cryptomatte.jpg?x20228">
+														</div>
+																											
+																										<div class="cards-list-item-info">
+																													<span class="cards-list-item-title">Cryptomatte</span>
+														
+																													<span class="cards-list-item-excerpt" href=""><p><span class="lead"><a href="https://github.com/Psyop/Cryptomatte">Cryptomatte</a> is a standard to efficiently create mattes for compositing. Cycles outputs the required passes, which can be used in the Blender compositor or any compositor with Cryptomatte support.</span></p>
+</span>
+																											</div>
+																									</div>
+											</div>
+
+										
+											<div class="cards-list-item-outer">
+												<div class="cards-list-item-inner" style="">
+
+																																									<div class="cards-list-item-thumbnail">
+															<img src="https://www.blender.org/wp-content/uploads/2019/07/cycles_sss.jpg?x20228">
+														</div>
+																											
+																										<div class="cards-list-item-info">
+																													<span class="cards-list-item-title">Random Walk Subsurface Scattering</span>
+														
+																													<span class="cards-list-item-excerpt" href=""><p><span class="lead">The new <a href="https://docs.blender.org/manual/en/2.80/render/shader_nodes/shader/sss.html">Random Walk subsurface scattering</a> method provides more accurate results for thin and curved objects.</span></p>
+</span>
+																											</div>
+																									</div>
+											</div>
+
+										
+											<div class="cards-list-item-outer">
+												<div class="cards-list-item-inner" style="">
+
+																																									<div class="cards-list-item-thumbnail">
+															<img src="https://www.blender.org/wp-content/uploads/2019/07/cycles_dicing.jpg?x20228">
+														</div>
+																											
+																										<div class="cards-list-item-info">
+																													<span class="cards-list-item-title">Subdivision and Displacement</span>
+														
+																													<span class="cards-list-item-excerpt" href=""><p><span class="lead">New offscreen dicing scale helps to significantly reduce memory usage, by reducing the dicing rate for objects the further they are outside of the camera view. </span></p>
+</span>
+																											</div>
+																									</div>
+											</div>
+
+																			</div>
+								
+							
+
+								
+
+								
+
+								
+
+																	<div class="lead p-5">
+										<p>Cycles has been used in high-profile short and feature films, and is receiving a growing amount of contributions from the industry. The full list of improvements is available on the wiki <a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Cycles">release notes</a>. Here are some highlights.</p>
+									</div>
+								
+
+								
+
+								
+
+								
+							
+
+								
+
+								
+
+								
+
+								
+
+																	<div class="lead p-5">
+										<ul class="list-unstyled d-flex justify-content-center align-items-center flex-wrap text-center">
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Cycles#Principled_Volume_Shader" target="_blank" class="d-block px-3 py-2">
+														Principled Volume Shader													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Cycles#Bevel_Shader" target="_blank" class="d-block px-3 py-2">
+														Bevel Shader													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Cycles#Ambient_Occlusion_Shader" target="_blank" class="d-block px-3 py-2">
+														Ambient Occlusion Shader													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Cycles#Optimizations" target="_blank" class="d-block px-3 py-2">
+														Performance Optimizations													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Cycles#GPU_rendering" target="_blank" class="d-block px-3 py-2">
+														GPU+CPU Rendering													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Cycles#Shader_Nodes" target="_blank" class="d-block px-3 py-2">
+														IES Lights													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Cycles#More_Features" target="_blank" class="d-block px-3 py-2">
+														Disk Area Lights													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Cycles#Subdivision_and_Displacement" target="_blank" class="d-block px-3 py-2">
+														Vector Displacement													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Cycles#More_Features" target="_blank" class="d-block px-3 py-2">
+														...and more!													</a>
+																							</li>
+																				</ul>
+									</div>
+								
+
+								
+
+								
+							
+						
+					</div>
+				</div>
+			</div>
+
+													
+			<div
+				id="but-wait-theres-more"
+				class="features__releaselogs_section odd major-feature"
+				style="								">
+
+				
+				<div class="container">
+
+					<div class="features__releaselogs_section-box box-align-full">
+
+						<div class="features__releaselogs_section-intro ">
+							
+							<div class="features__releaselogs_section-description">
+
+																	<a href="#but-wait-theres-more" class="features__releaselogs_section-title">
+										But Wait, There's More!										<span><i class="fa fa-link"></i></span>
+									</a>
+								
+								
+															</div>
+						</div>
+
+												
+
+								
+
+								
+
+								
+
+								
+
+																	<div class="lead p-5">
+										<ul class="list-unstyled d-flex justify-content-center align-items-center flex-wrap text-center">
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Modeling#Multi-Object_Editing" target="_blank" class="d-block px-3 py-2">
+														Multi-object Editing													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Layers#Collections" target="_blank" class="d-block px-3 py-2">
+														View Layers and Collections													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Modeling#Custom_Normal_Tools_and_Modifier" target="_blank" class="d-block px-3 py-2">
+														Custom Normal Tools & Modifier													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Modeling#Subdivision_Surfaces_and_Multires" target="_blank" class="d-block px-3 py-2">
+														Pixar's OpenSubdiv													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/More_Features#Video_Sequencer" target="_blank" class="d-block px-3 py-2">
+														Custom Font Text Strip													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Modeling#Bevel_Tool_and_Modifier_improvements" target="_blank" class="d-block px-3 py-2">
+														Bevel Tool & Modifier													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Modeling#Text_improvements" target="_blank" class="d-block px-3 py-2">
+														Text Improvements													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Animation#Constraints" target="_blank" class="d-block px-3 py-2">
+														New Armature Constraint													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Animation#Constraints" target="_blank" class="d-block px-3 py-2">
+														Constraints Improvements													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Import_Export#Images_and_Video" target="_blank" class="d-block px-3 py-2">
+														Video Metadata													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Import_Export#Alembic" target="_blank" class="d-block px-3 py-2">
+														Alembic													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Import_Export#Images_and_Video" target="_blank" class="d-block px-3 py-2">
+														WebM Support													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Import_Export" target="_blank" class="d-block px-3 py-2">
+														glTF Support													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Animation#Keyframing_.26_Drivers" target="_blank" class="d-block px-3 py-2">
+														Easier Drivers Setup													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/More_Features#Physics" target="_blank" class="d-block px-3 py-2">
+														Angular Bending on Cloth													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/More_Features#Audio" target="_blank" class="d-block px-3 py-2">
+														Audaspace Upgrade													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Import_Export#COLLADA" target="_blank" class="d-block px-3 py-2">
+														COLLADA													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/UI#Templates" target="_blank" class="d-block px-3 py-2">
+														User Interface Templates													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/UI#Pie_Menus" target="_blank" class="d-block px-3 py-2">
+														Pie Menus													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/More_Features#Datablocks" target="_blank" class="d-block px-3 py-2">
+														Better Data-block Management													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/More_Features#Video_Sequencer" target="_blank" class="d-block px-3 py-2">
+														New Video Sequencer Cache													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/UI#Status_Bar" target="_blank" class="d-block px-3 py-2">
+														Status Bar													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/More_Features#Units" target="_blank" class="d-block px-3 py-2">
+														Unit System Improvements													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Depsgraph" target="_blank" class="d-block px-3 py-2">
+														New Dependency Graph													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Cycles#Fixes" target="_blank" class="d-block px-3 py-2">
+														Cycles Fixes													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/More_Features#Sculpting" target="_blank" class="d-block px-3 py-2">
+														Topology Rake													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/UI#Popovers" target="_blank" class="d-block px-3 py-2">
+														Popover UI Widget													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Add-ons#Bone_Selection_Sets_v._2.1.0" target="_blank" class="d-block px-3 py-2">
+														Bone Selection Sets													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/More_Features#Compositor" target="_blank" class="d-block px-3 py-2">
+														Film-like Curve Mapping													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/UI#Preferences" target="_blank" class="d-block px-3 py-2">
+														Redesigned User Preferences													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Add-ons#Object_Scatter" target="_blank" class="d-block px-3 py-2">
+														Object Scatter													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/More_Features#Preferences" target="_blank" class="d-block px-3 py-2">
+														New Tablet Preferences													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Add-ons#Rigify" target="_blank" class="d-block px-3 py-2">
+														Rigify													</a>
+																							</li>
+																					<li>
+																									<a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Python_API" target="_blank" class="d-block px-3 py-2">
+														Python API Changes & Improvements													</a>
+																							</li>
+																				</ul>
+									</div>
+								
+
+								
+
+								
+							
+						
+					</div>
+				</div>
+			</div>
+
+																		
+			<div
+				id="compatibility"
+				class="features__releaselogs_section  compatibility-warning"
+				style="								">
+
+				
+				<div class="container">
+
+					<div class="features__releaselogs_section-box box-align-full">
+
+						<div class="features__releaselogs_section-intro ">
+							
+							<div class="features__releaselogs_section-description">
+
+																	<a href="#compatibility" class="features__releaselogs_section-title">
+										Compatibility										<span><i class="fa fa-link"></i></span>
+									</a>
+								
+																	<div class="description-text"><h3>Python API</h3>
+<p>Blender 2.80 is an API breaking release. Add-ons and scripts will need to be updated, both to handle the new features and adapt to changes that make the API more consistent and reliable. <a href="https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Python_API" target="_blank">Read more <i class="fa fa-angle-right pl-2"></i></a></p>
+<h3>Removed Features</h3>
+<p>A number of features that were no longer under active development or did not fit in the new design were removed. By removing the maintenance burden, developers can spend more time on new features and redesign the user interface and implementation to be more optimized.</p>
+<ul>
+<li>The render engine Blender Internal was removed, replaced by EEVEE, the new real-time engine.</li>
+<li>The Blender Game Engine was removed. We recommend using more powerful, open source alternatives like <a href="https://godotengine.org/" rel="noopener" target="_blank">Godot</a>.</li>
+<li>Dupliframes and slow parent were removed, as these are incompatible with the new dependency graph and never worked reliably in the old one.</li>
+</ul>
+</div>
+								
+															</div>
+						</div>
+
+												
+					</div>
+				</div>
+			</div>
+
+								
+			<div
+				id="special-thanks"
+				class="features__releaselogs_section odd "
+				style="background-image: url(https://www.blender.org/wp-content/uploads/2019/07/blender_280_sponsors.jpg);								">
+
+				
+				<div class="container">
+
+					<div class="features__releaselogs_section-box box-align-full">
+
+						<div class="features__releaselogs_section-intro ">
+							
+							<div class="features__releaselogs_section-description">
+
+																	<a href="#special-thanks" class="features__releaselogs_section-title">
+										Special Thanks										<span><i class="fa fa-link"></i></span>
+									</a>
+								
+																	<div class="description-text"><p>The Blender developer community is being supported by the organizational powers of Blender Foundation and its spin-off Blender Institute. The people who work for the Foundation and Institute did a tremendous job to bring Blender is where is it nowadays.</p>
+<p>Special thanks goes to <a href="https://www.tangent-animation.com" class="text-muted">Tangent Animation</a> and <a href="https://www.alephobjects.com" class="text-muted">Aleph Objects</a>, who funded 4 additional developers to work full-time on Blender 2.8 during the crucial 2017 period. This enabled us to work on the viewport, Eevee, collections/layers, UI and tools redesign.</p>
+<p>Thanks goes to everyone who contributed to the Code Quest, the massively successful 3 month workshop in Blender Institute during spring 2018.</p>
+<p>And we thank everyone who joined the Development Fund in 2nd half of 2018 and 2019. This helped us to keep the core of Blender contributors together to work on 2.8.</p>
+<p>And last but not least: special thanks to the blender.org community &#8211; the developers, documenters, bug reporters and reviewers &#8211; it is thanks to them that we can start this wonderful new era of Blender 2.8x!</p>
+</div>
+								
+															</div>
+						</div>
+
+												
+					</div>
+				</div>
+			</div>
+
+					
+		<div id="major-feature" class="features__releaselogs_section major-feature py-5">
+			<div class="container">
+				<div class="features__releaselogs_section-box">
+					<div class="features__releaselogs_section-intro ">
+						<div class="features__releaselogs_section-description text-center">
+							<span class="features__releaselogs_section-title">
+								Stay up-to-date
+							</span>
+							<div class="description-text pb-3">
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<a href="https://www.youtube.com/playlist?list=PLa1F2ddGya_87HJ72v_IgKUTNLIXSMfvB"><h3 class="my-3">Weekly Live Streams</h3></a>
+										<div class="embed-responsive embed-responsive-16by9 rounded">
+											​<iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLa1F2ddGya_87HJ72v_IgKUTNLIXSMfvB" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<a href="https://www.youtube.com/playlist?list=PLyGoWAGEPJ1DLzhm1_dhuLVe7wT1kBFNP"><h3 class="my-3">Development Videos</h3></a>
+										<div class="embed-responsive embed-responsive-16by9 rounded">
+											​<iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLyGoWAGEPJ1DLzhm1_dhuLVe7wT1kBFNP" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+										</div>
+									</div>
+								</div>
+
+								<hr/>
+
+								<small class="text-muted">Follow the official hashtag for Blender stuff on social media <a href="https://twitter.com/search?q=%23b3d" target="_blank">#b3d</a></small>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="features__releaselogs_section-box box py-5">
+					<div class="features__releaselogs_section-description py-0 px-3">
+						<div class="row">
+							<div class="col-md-8">
+								<a href="https://fund.blender.org/" class="text-secondary">
+									<h2 class="py-2">Blender Development Fund</h2>
+								</a>
+								<p class="lead">
+									The donation program to support maintaining and improving Blender, for everyone.
+									<a href="https://fund.blender.org/">Become a member for as little as €5 per month.</a>
+								</p>
+							</div>
+							<div class="col-md-4 text-center display-1">
+								<a href="https://fund.blender.org/" class="text-danger h-100 justify-content-center align-items-center d-flex text-decoration-none">
+									<i class="fa fa-heart"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+		</div> <!-- main container -->
+
+		<div class="footer-navigation pt-5"><div class="container"><div class="row"><div class="col-6 col-md-2"><a href="https://www.blender.org/download/" class="sitemap-title pb-2">Blender</a><ul><li><a href="https://www.blender.org/download/" title="Download Blender">Download</a></li><li><a href="https://www.blender.org/features/" title="Blender Features">Features</a></li><li><a href="https://developer.blender.org/diffusion/B/" title="Source Code">Source</a></li><li><a href="https://www.blender.org/about/license/" title="License">License</a></li><li><a href="https://www.blender.org/about/logo/" title="Logo & Trademark">Logo & Trademark</a></li></ul></div><div class="col-6 col-md-2"><a href="https://www.blender.org/foundation/" class="sitemap-title pb-2">Organization</a><ul><li><a href="https://www.blender.org/foundation/" title="Blender Foundation">Foundation</a></li><li><a href="https://www.blender.org/institute/" title="Blender Institute">Institute</a></li><li><a href="https://blender.studio/" title="Blender Studio">Studio</a></li><li><a href="https://www.blendernetwork.org" title="The Network of Blender Professionals">Blender Network</a></li><li><a href="https://www.blender.org/conference/" title="Conference">Blender Conference</a></li></ul></div><div class="col-6 col-md-2"><a href="https://www.blender.org/get-involved/" class="sitemap-title pb-2">Get Involved</a><ul><li><a href="https://www.blender.org/foundation/donation-payment/" title="Donate">Donate</a></li><li><a href="https://www.blender.org/get-involved/developers/" title="Development">Development</a></li><li><a href="https://www.blender.org/get-involved/documenters/" title="Documentation">Documentation</a></li><li><a href="https://www.blender.org/get-involved/" title="Education">Education</a></li><li><a href="https://www.blender.org/certification/" title="Certification">Certification</a></li></ul></div><div class="col-6 col-md-2"><a href="https://www.blender.org/community/" class="sitemap-title pb-2">Support</a><ul><li><a href="https://www.blender.org/community/" title="Community">Community</a></li><li><a href="https://docs.blender.org/manual/en/dev/" title="Manual">Manual</a></li><li><a href="https://www.blender.org/support/tutorials/" title="Tutorials">Tutorials</a></li><li><a href="https://docs.blender.org/api/current/" title="Python API">Python API</a></li><li><a href="https://devtalk.blender.org/" title="Developers Forum">Developers Forum</a></li></ul></div><div class="col-6 col-md-2"><a href="https://www.blender.org/about/website/" class="sitemap-title pb-2">blender.org</a><ul><li><a href="https://www.blender.org/news/" title="News">News</a></li><li><a href="https://www.blender.org/jobs/" title="Jobs">Jobs</a></li><li><a href="https://www.blender.org/about/website/" title="Website">Website</a></li><li><a href="https://opendata.blender.org/" title="Open Data">Open Data</a></li><li><a href="https://fund.blender.org/" title="Contact">Development Fund</a></li></ul></div><div class="col-6 col-md-2"><a href="https://twitter.com/blender_org" class="sitemap-title pb-2">Follow Blender</a><div class="social-icons"><a href="https://youtube.com/BlenderFoundation" title="Blender's Official YouTube channel" target="_blank" class="social-icons__youtube"><i><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></i></a><a href="https://twitter.com/blender" title="Follow Blender on Twitter" target="_blank" class="social-icons__twitter"><i><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></i></a><a href="https://instagram.com/blender.official/" title="Follow Blender on Instagram" target="_blank" class="social-icons__instagram"><i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256,49.471c67.266,0,75.233.257,101.8,1.469,24.562,1.121,37.9,5.224,46.778,8.674a78.052,78.052,0,0,1,28.966,18.845,78.052,78.052,0,0,1,18.845,28.966c3.45,8.877,7.554,22.216,8.674,46.778,1.212,26.565,1.469,34.532,1.469,101.8s-0.257,75.233-1.469,101.8c-1.121,24.562-5.225,37.9-8.674,46.778a83.427,83.427,0,0,1-47.811,47.811c-8.877,3.45-22.216,7.554-46.778,8.674-26.56,1.212-34.527,1.469-101.8,1.469s-75.237-.257-101.8-1.469c-24.562-1.121-37.9-5.225-46.778-8.674a78.051,78.051,0,0,1-28.966-18.845,78.053,78.053,0,0,1-18.845-28.966c-3.45-8.877-7.554-22.216-8.674-46.778-1.212-26.564-1.469-34.532-1.469-101.8s0.257-75.233,1.469-101.8c1.121-24.562,5.224-37.9,8.674-46.778A78.052,78.052,0,0,1,78.458,78.458a78.053,78.053,0,0,1,28.966-18.845c8.877-3.45,22.216-7.554,46.778-8.674,26.565-1.212,34.532-1.469,101.8-1.469m0-45.391c-68.418,0-77,.29-103.866,1.516-26.815,1.224-45.127,5.482-61.151,11.71a123.488,123.488,0,0,0-44.62,29.057A123.488,123.488,0,0,0,17.3,90.982C11.077,107.007,6.819,125.319,5.6,152.134,4.369,179,4.079,187.582,4.079,256S4.369,333,5.6,359.866c1.224,26.815,5.482,45.127,11.71,61.151a123.489,123.489,0,0,0,29.057,44.62,123.486,123.486,0,0,0,44.62,29.057c16.025,6.228,34.337,10.486,61.151,11.71,26.87,1.226,35.449,1.516,103.866,1.516s77-.29,103.866-1.516c26.815-1.224,45.127-5.482,61.151-11.71a128.817,128.817,0,0,0,73.677-73.677c6.228-16.025,10.486-34.337,11.71-61.151,1.226-26.87,1.516-35.449,1.516-103.866s-0.29-77-1.516-103.866c-1.224-26.815-5.482-45.127-11.71-61.151a123.486,123.486,0,0,0-29.057-44.62A123.487,123.487,0,0,0,421.018,17.3C404.993,11.077,386.681,6.819,359.866,5.6,333,4.369,324.418,4.079,256,4.079h0Z"></path><path d="M256,126.635A129.365,129.365,0,1,0,385.365,256,129.365,129.365,0,0,0,256,126.635Zm0,213.338A83.973,83.973,0,1,1,339.974,256,83.974,83.974,0,0,1,256,339.973Z"></path><circle cx="390.476" cy="121.524" r="30.23"></circle></svg></i></a><a href="https://www.facebook.com/YourOwn3DSoftware/" title="Follow Blender on Facebook" target="_blank" class="social-icons__facebook"><i><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M448 80v352c0 26.5-21.5 48-48 48h-85.3V302.8h60.6l8.7-67.6h-69.3V192c0-19.6 5.4-32.9 33.5-32.9H384V98.7c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9H184v67.6h60.9V480H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48z"></path></svg></i></a><a href="https://www.linkedin.com/company/blender-org/" title="Follow Blender on LinkdIn" target="_blank" class="social-icons__linkedin"><i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg></i></a></div><hr class="mb-0"/><a href="https://code.blender.org" class="sitemap-title mt-0 py-2">Development News</a><div class="social-icons"><a href="https://youtube.com/BlenderDevelopers" title="Official YouTube channel for Blender development news" target="_blank" class="social-icons__youtube"><i><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></i></a><a href="https://twitter.com/BlenderDev" title="Follow Blender Developers on Twitter" target="_blank" class="social-icons__twitter"><i><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></i></a></div></div></div></div></div><footer class="footer-note">Artistic freedom starts with Blender<i><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg></i><span>The Free and Open Source 3D Creation Suite</span><div id="hop" title="Be awesome in space"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"></path></svg></div><script>var hop = document.getElementById("hop");
+hop.onclick = function(e){ window.scrollTo(0, 0);}
+window.addEventListener("scroll", function(){if(window.pageYOffset > 250){document.body.classList.add("is-scrolled")}else{document.body.classList.remove("is-scrolled")}});</script></footer>	<script src="https://www.blender.org/wp-content/themes/bthree/assets/js/generated/tutti.min.js?x20228"></script>
+
+	<script type='text/javascript'>
+	$(document).ready(function() {
+		$('.images-compare').imagesCompare();
+	});
+</script>
+
+<script type='text/javascript' src='https://www.blender.org/wp-includes/js/wp-embed.min.js?x20228' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://www.blender.org/wp-content/themes/bthree/assets/js/hammer-2.0.8.min.js?x20228' id='hammer-js'></script>
+<script type='text/javascript' src='https://www.blender.org/wp-content/themes/bthree/assets/js/jquery.images-compare-0.2.5.js?x20228' id='media-compare-js'></script>
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-1418081-1', 'blender.org');
+	ga('require', 'displayfeatures');
+	ga('send', 'pageview');
+</script>
+
+		</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 192/327 objects using memcache
+Page Caching using memcache 
+Database Caching 2/63 queries in 0.083 seconds using memcache
+
+Served from: www.blender.org @ 2021-05-16 12:08:07 by W3 Total Cache
+-->

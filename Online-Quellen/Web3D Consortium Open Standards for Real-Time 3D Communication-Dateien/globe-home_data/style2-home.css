@@ -1,0 +1,48 @@
+html,body
+{
+	height: 98%
+}
+
+
+.container-globe {background: url("globe-home.jpg"); }
+.x3dom-logContainer, #x3d-create-init-failed {display: none !important; }
+#model
+{
+	width: 240px;
+	height: 200px;
+}
+
+
+#resetViewButton {
+    position: absolute;
+    float: left;
+    z-index: 1;
+    top: 200px;
+    left: 0px;
+    width: 10em;
+    height: 2em;
+    border: none;
+    background-color: #202021;
+    color: #ccc;
+}
+
+#resetViewButton:hover {
+    background-color:blue;
+}
+
+#content2
+{
+	margin-top:200px;
+	padding-left: 100px;
+}
+
+
+X3D {
+		border: 0px; 
+		position:fixed; 
+		top:0px; 
+		left:0px; 
+        z-index:1;
+        width:192px;
+        height:160px;
+    }
